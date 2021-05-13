@@ -30,6 +30,41 @@
     <DebugSymbols>true</DebugSymbols>
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AxClass\TRNAtlDataCustomerGroups_Extension">
+      <SubType>Content</SubType>
+      <Name>TRNAtlDataCustomerGroups_Extension</Name>
+      <Link>Classes\TRNAtlDataCustomerGroups_Extension</Link>
+    </Content>
+    <Content Include="AxClass\TRNAtlQueryCustGroups">
+      <SubType>Content</SubType>
+      <Name>TRNAtlQueryCustGroups</Name>
+      <Link>Classes\TRNAtlQueryCustGroups</Link>
+    </Content>
+    <Content Include="AxClass\TRNATLQueryCustomers_Extension">
+      <SubType>Content</SubType>
+      <Name>TRNAtlQueryCustomers_Extension</Name>
+      <Link>Classes\TRNATLQueryCustomers_Extension</Link>
+    </Content>
+    <Content Include="AxClass\TRNUnitTestDataExample1ATLTest">
+      <SubType>Content</SubType>
+      <Name>TRNUnitTestDataExample1ATLTest</Name>
+      <Link>Classes\TRNUnitTestDataExample1ATLTest</Link>
+    </Content>
+    <Content Include="AxClass\TRNUnitTestDataExample1Test">
+      <SubType>Content</SubType>
+      <Name>TRNUnitTestDataExample1Test</Name>
+      <Link>Classes\TRNUnitTestDataExample1Test</Link>
+    </Content>
+    <Content Include="AxClass\TRNUnitTestExample2ATLTest">
+      <SubType>Content</SubType>
+      <Name>TRNUnitTestExample2ATLTest</Name>
+      <Link>Classes\TRNUnitTestExample2ATLTest</Link>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />
   <Import Project="$(BuildTasksDirectory)\Microsoft.Dynamics.Framework.Tools.BuildTasks.targets" />
 </Project>
